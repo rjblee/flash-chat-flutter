@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "154637734214",
+    "project_id": "flash-chat-11d11",
+    "storage_bucket": "flash-chat-11d11.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:154637734214:android:180bbb63e313bf3dff5547",
+        "android_client_info": {
+          "package_name": "co.ralphlee.flash_chat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "154637734214-btjs3lnr3dimg3s9g6cksrhh76c9o2n6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAZIWn25cZjE_Vugr3QL7eOTPsPkn-Hs4U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "154637734214-btjs3lnr3dimg3s9g6cksrhh76c9o2n6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
