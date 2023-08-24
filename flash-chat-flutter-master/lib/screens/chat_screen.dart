@@ -34,6 +34,10 @@ class _ChatScreenState extends State<ChatScreen> {
     }
   }
 
+  void getMessages() async {
+    final messages = await _firestore.collection('messages').get();
+  }
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -70,8 +74,10 @@ class _ChatScreenState extends State<ChatScreen> {
                   TextButton(
                     onPressed: () {
                       //messageText + loggedInUser
-                      _firestore.collection('messages').add(
-                          {'text': messageText, 'sender': loggedInUser.email});
+                      _firestore.collection('messages').add({
+                        'text': messageText,
+                        'sender': loggedInUser.email,
+                      });
                     },
                     child: Text(
                       'Send',
